@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * _puts - Prints a string to standout.
+ * _puts - Prints a string to stdout.
  * @str: The string to be printed.
  */
-void _:puts(char *str)
+void _puts(char *str)
 {
 	while (*str)
 		_putchar(*str++);
