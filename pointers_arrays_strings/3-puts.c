@@ -3,11 +3,11 @@
 
 /**
  * _puts - Prints a string to standout.
- *  @str: The string to be printed. 
+ * @str: The string to be printed.
  */
-void -puts(char *str)
+void _:puts(char *str)
 {
-	while(*str)
+	while (*str)
 		_putchar(*str++);
 
 	_putchar('\n');
