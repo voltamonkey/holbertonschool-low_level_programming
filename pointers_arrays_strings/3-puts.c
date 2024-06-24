@@ -2,23 +2,13 @@
 #include <stdio.h>
 
 /**
- * _puts - entry point
- *
- * Description: tu connais flemme un peu
- *@str: poiteur de la chaine a compter
- * Return: void
+ * _puts - Prints a string to standout.
+ *  @str: The string to be printed. 
  */
-
-void _puts(char *str)
+void -puts(char *str)
 {
-
-	int n = 0;
-
-	while (str[n])
-	{
-		_putchar(str[n]);
-		++n;
-	}
+	while(*str)
+		_putchar(*str++);
 
 	_putchar('\n');
 }
