@@ -2,10 +2,11 @@
 
 /**
  *_strcat - concatenates two strings.
- *@:h
- *@:w
- *return:dest
+ * @dest : pointer
+ * @src : pointer 2
+ * Return : Always 0
 */
+
 char *_strcat(char *dest, char *src)
 {
 	int h, w;
@@ -15,9 +16,6 @@ char *_strcat(char *dest, char *src)
 	for (w = 0; src[w] != '\0' ; w++)
 	{
 		dest[h] = src[w];
-		h++;
 	}
-
-	dest[h] ='\0';
-	return (dest);
+    return (dest);
 }
