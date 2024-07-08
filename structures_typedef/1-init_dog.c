@@ -4,6 +4,7 @@
 /**
  * init_dog- initialize variable
  *@d: point ti start
+ *@age: age of dog
  *@name: name of the dog
  *@owner: owner of the dog
  */
