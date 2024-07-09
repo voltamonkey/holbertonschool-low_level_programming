@@ -8,7 +8,7 @@
  *Return: Nothing
  */
 
-void print_dog(struct dog *d)
+oid print_dog(struct dog *d)
 {
 	if (d)
 	{
