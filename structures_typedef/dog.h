@@ -7,11 +7,11 @@
  * @age: intenger
  * @owner: Character string
 */
-
 struct dog
+
 {
 char *name;
 float age;
 char *owner;
 };
-#endif
+#endif 
