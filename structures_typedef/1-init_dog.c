@@ -6,10 +6,11 @@
  *@d: point ti start
  *@age: age of dog
  *@name: name of the dog
- *@owner: owner of the dog
+ *@owner: owner of the dogi
+ *return - null
  */
 
-void init_dog(struct dog *d, char *name, float age, char *owner);
+void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (d != NULL)
 	{
@@ -19,4 +20,3 @@ void init_dog(struct dog *d, char *name, float age, char *owner);
 
 	}
 }
-
